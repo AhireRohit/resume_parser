@@ -78,7 +78,6 @@ resume-screener/
 ├── main.py              # Main app with Gradio UI
 ├── requirements.txt     # Dependencies
 ├── sample_resume.pdf    # Sample resume for testing
-├── screenshots/         # UI screenshots for README
 └── README.md            # This file
 ```
 🧠 Sample Prompt Used for LLM
