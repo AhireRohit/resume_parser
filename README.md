@@ -72,3 +72,32 @@ ollama run phi
 ```bash
 python main.py
 ```
+📁 File Structure
+```bash
+resume-screener/
+├── main.py              # Main app with Gradio UI
+├── requirements.txt     # Dependencies
+├── sample_resume.pdf    # Sample resume for testing
+├── screenshots/         # UI screenshots for README
+└── README.md            # This file
+```
+🧠 Sample Prompt Used for LLM
+```text
+You are an expert resume parser. Extract the following fields...
+
+Resume:
+<PDF resume text>
+```
+Then compare it with the JD using:
+
+```text
+You are an expert HR analyst. Given the resume JSON and JD...
+```
+
+🙋 Why Local + Open Source?
+
+🔒 No data sent to cloud — 100% private
+🆓 Zero cost — no API tokens
+🧠 Use any model you want (Mistral, Phi, Gemma, DeepSeek, etc.)
+🔧 Can be scaled to batch resumes, export CSVs, or auto-rank candidates
+
