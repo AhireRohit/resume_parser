@@ -96,8 +96,8 @@ You are an expert HR analyst. Given the resume JSON and JD...
 
 🙋 Why Local + Open Source?
 
-🔒 No data sent to cloud — 100% private
-🆓 Zero cost — no API tokens
-🧠 Use any model you want (Mistral, Phi, Gemma, DeepSeek, etc.)
-🔧 Can be scaled to batch resumes, export CSVs, or auto-rank candidates
+- 🔒 No data sent to cloud — 100% private
+- 🆓 Zero cost — no API tokens
+- 🧠 Use any model you want (Mistral, Phi, Gemma, DeepSeek, etc.)
+- 🔧 Can be scaled to batch resumes, export CSVs, or auto-rank candidates
 
