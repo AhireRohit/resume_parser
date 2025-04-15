@@ -83,7 +83,7 @@ ollama run phi
 ```
 2. Run the app
 ```bash
-python main.py
+python app.py
 ```
 📁 File Structure
 ```bash
