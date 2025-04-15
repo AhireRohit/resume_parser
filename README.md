@@ -48,3 +48,27 @@ A smart, locally-hosted ATS-style tool that uses **open-source LLMs** (like Mist
 ### ✅ Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+Example requirements.txt:
+```bash
+gradio
+requests
+PyMuPDF
+```
+💻 How to Run Locally
+1. Start your model with Ollama
+```bash
+
+ollama pull mistral
+ollama run mistral
+```
+Or use a lighter model:
+
+```bash
+ollama pull phi
+ollama run phi
+```
+2. Run the app
+```bash
+python main.py
+```
