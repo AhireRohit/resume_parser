@@ -1,9 +1,6 @@
 # 💼 LLM-Powered Resume Screener
 
 A smart, locally-hosted ATS-style tool that uses **open-source LLMs** (like Mistral or Phi) to analyze resumes against job descriptions. Built with Python, Gradio, and Ollama — this AI screener parses resume PDFs, compares them with job descriptions, and gives match scores, strengths, weaknesses, and interview suggestions.
-![image](https://github.com/user-attachments/assets/adf0eb9c-b053-4769-8590-448e5f49e2bf)
-
-
 ---
 
 ## 🚀 Features
@@ -25,7 +22,7 @@ A smart, locally-hosted ATS-style tool that uses **open-source LLMs** (like Mist
 
 ## 📷 Demo Screenshot
 
-![Gradio UI Screenshot](screenshots/resume-screener-ui.png)
+![image](https://github.com/user-attachments/assets/f53efe8c-c56f-4d2e-913e-82a7fbf39d8c)
 
 ---
 
