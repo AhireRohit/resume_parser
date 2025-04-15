@@ -45,6 +45,19 @@ A smart, locally-hosted ATS-style tool that uses **open-source LLMs** (like Mist
 - GPU (optional but recommended — at least 4GB VRAM)
 - [Ollama](https://ollama.com/) installed (to run models like `mistral`, `phi`, or `gemma`)
 
+### 🐋 How to Install Ollama
+
+1. Visit: [https://ollama.com/download](https://ollama.com/download)
+2. Choose your platform (Windows, macOS, or Linux)
+3. Follow the setup instructions (1-click install)
+4. After install, test it:
+5. 
+ollama run phi
+```
+bash
+If it launches and waits for input, you're good to go ✅
+```
+
 ### ✅ Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -93,7 +106,7 @@ Then compare it with the JD using:
 You are an expert HR analyst. Given the resume JSON and JD...
 ```
 
-🙋 Why Local + Open Source?
+## 🙋 Why Local + Open Source?
 
 - 🔒 No data sent to cloud — 100% private
 - 🆓 Zero cost — no API tokens
